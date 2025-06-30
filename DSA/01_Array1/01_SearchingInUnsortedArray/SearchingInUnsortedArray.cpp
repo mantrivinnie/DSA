@@ -18,3 +18,4 @@ int search (int arr[],int n,int x){
 
 //Time Complexity: O(n)
 //Worst Case when element is not presnt in the array
+
