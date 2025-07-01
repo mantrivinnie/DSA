@@ -27,3 +27,18 @@ int secondLargest(int arr[],int n){
     }
     return res;
 }
+
+int main(){
+    int arr1[]={1,6,7,5,3,2};   //6 is secondMAx
+    int arr2[]={4,4,4,4};     //As all r same so -1 should be returned
+
+    int secMax;
+
+    secMax=secondLargest(arr1,6);
+    cout<<"Index of Largest of first array: "<<secMax<<"\n";
+
+    secMax=secondLargest(arr2,4);
+    cout<<"Index of Largest of second array: "<<secMax<<"\n";
+
+    return 0;
+}
