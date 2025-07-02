@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int RemDuplicaye(int arr[],int n){
+int RemoveDuplicate(int arr[],int n){
     int temp[n];
 
     temp[0]=arr[0];
@@ -24,7 +24,7 @@ int RemDuplicaye(int arr[],int n){
 int main(){
     int arr[6]={30,10,30,20,50,20};
     int n=6;
-    n=RemDuplicaye(arr,n);
+    n=RemoveDuplicate(arr,n);
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
