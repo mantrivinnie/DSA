@@ -9,3 +9,12 @@ int isSorted(int arr[],int n){
     }
     return true;
 }
+
+int main(){
+    int arr[]={10,20,30,40,50};
+    int n=5;
+
+    cout<<isSorted(arr,n);
+
+    return 0;
+}
