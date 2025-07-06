@@ -29,3 +29,6 @@ int main(){
 
     return 0;
 }
+
+//Time Complexity: O(n*d)
+//Auxiliary Space: O(1)
