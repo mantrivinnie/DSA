@@ -10,6 +10,8 @@ using namespace std;
 
 // If there is an element present on right side that is equal then even that is not a leader
 
+
+
 vector<int> Leader(vector<int> arr)
 {
     vector<int> leaders;
