@@ -14,8 +14,8 @@ struct MyHash{
     }
 
     void remove(int key){
-        int i = key % BUCKET; // Hash function to find the index
-        table[i].remove(key); // Remove the key from the list at index i
+        int i = key % BUCKET;   // Hash function to find the index
+        table[i].remove(key);   // Remove the key from the list at index i
     }
 
     bool search(int key){
