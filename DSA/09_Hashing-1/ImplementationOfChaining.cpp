@@ -23,7 +23,7 @@ struct MyHash{
         for(auto x : table[i]){ // Iterate through the list at index i
             if(x == key) return true; // If the key is found, return true
         }
-        return false; // If the key is not found, return false
+        return false;   // If the key is not found, return false
     }
 
 };
