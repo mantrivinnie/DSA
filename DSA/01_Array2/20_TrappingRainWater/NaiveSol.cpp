@@ -21,6 +21,8 @@ int getWater(int arr[], int n)
     return res;
 }
 
+
+
 // Time complexity: O(n^2)
 
 int main()
